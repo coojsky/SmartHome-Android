@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:id="@+id/bbs">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+            <TextView
+                android:id="@+id/bbsID"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#18bc9c"
+                android:drawableLeft="@drawable/ic_bookmark_black_24dp"
+                android:padding="5dp"
+                android:textColor="#ffffff"
+                android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:background="#18bc9c"
+        android:text="제목"
+        android:padding="5dp"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/bbsTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:background="#18bc9c"
+                android:padding="5dp"
+                android:text="제목"
+                android:textColor="#ffffff"
+                android:textSize="16dp" />
+</LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:text="  "
+                android:textColor="#ffffff"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="작성자"
+                android:textColor="#ffffff"
+                android:textSize="16dp" />
+
+            <TextView
+            android:id="@+id/userID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:padding="5dp"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimaryDark"
+                android:text="  "
+                android:padding="5dp"
+                android:textColor="#ffffff"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:background="@color/colorPrimaryDark"
+                android:padding="5dp"
+                android:text="작성 일"
+                android:textColor="#ffffff"
+                android:textSize="16dp" />
+
+            <TextView
+            android:id="@+id/bbsDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:padding="5dp"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+            </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

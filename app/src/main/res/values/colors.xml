@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c3e50</color>
+    <color name="colorPrimaryDark">#99000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWarning">#ED00CB</color>
+    <color name="colorGray">#8C8C8C</color>
+    <color name="colorDanger">#8324FF</color>
+    <color name="colorRed">#FF1212</color>
+    <color name="colorSafe">#08C904</color>
+    <color name="colorButton">#5665b9</color>
+    <color name="rootPrimary">#75fa53</color>
+    <color name="rootPrimaryDark">#3cc419</color>
+    <!--색상설정-->
+</resources>

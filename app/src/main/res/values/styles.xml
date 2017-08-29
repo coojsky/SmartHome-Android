@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Noactionbar">
+        <item name="windowActionBar">false</item>
+        <!--액션바 없애기-->
+        <item name="windowNoTitle">true</item>
+        <!--타이틀 없애기-->
+    </style>
+
+</resources>
